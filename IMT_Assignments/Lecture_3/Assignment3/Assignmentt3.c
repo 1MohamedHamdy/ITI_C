@@ -8,10 +8,10 @@ void main()
 	scanf("%d",&height);
 	/* if height = 4 
 	    1   2   3   4   5   6   7   
-	1				*
-	2		    *	*	*                    -----> rows = height ----> at end of each row we print new line  
-	3		*	*	*   *	*                -----> columns = (2*height)-1  ----> at each column in row we print * and spaces 
-	4	*	*   *   *   *   *	*    											  in row 1 we print only one star on column 4 and spaces on other
+	1		*
+	2	    *	*   *                    -----> rows = height ----> at end of each row we print new line  
+	3	*   *	*   *	*                -----> columns = (2*height)-1  ----> at each column in row we print * and spaces 
+	4   *	*   *   *   *   *   *    											  in row 1 we print only one star on column 4 and spaces on other
 																				  in row 2 we print two stars on column 3 , 4 , 5 and spaces on other
 																				            h-1    h   h+1   ---> h for height 
 																				                   4         ---> first row we print star at h-0 
