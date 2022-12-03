@@ -286,9 +286,9 @@ void Make_Transaction(u8 Account_Id[idLimit])
 				flag1_Balance = 1 ;
 				index1 = i ;
 				
-				break;											1000024937			200
-			}													1000025064          50
-			;
+				break;											
+			}													
+			
 		}
 		
 		
