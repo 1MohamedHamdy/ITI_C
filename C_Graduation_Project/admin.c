@@ -29,10 +29,10 @@ void Create_Account()
 	Insert_Account_ID();
 	printf("Account ID     : %s\n",user[client].Account_ID);
 	// password -> to not make all passwords of the same size
-    u8 rNum = (rand() % (UPPERPASS - LOWERPASS + 1)) + LOWERPASS;
-    // Password randomizer
-    randomPasswordGeneration(rNum, user[client].Password);
-    user[client].Password[rNum] = '\0';
+    	u8 rNum = (rand() % (UPPERPASS - LOWERPASS + 1)) + LOWERPASS;
+    	// Password randomizer
+   	randomPasswordGeneration(rNum, user[client].Password);
+    	user[client].Password[rNum] = '\0';
 	printf("Password       : %s\n",user[client].Password);
 	Insert_Status();
 	save_to_file();
