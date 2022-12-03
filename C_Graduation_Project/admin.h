@@ -7,10 +7,6 @@
 #define	passwordLimit 12
 #define gNationalIDLimit 15
 #define idLimit	10 
-#define UPPERID 9999999999
-#define LOWERID 1000000000
-#define UPPERPASS 15
-#define LOWERPASS 5
 typedef enum { False, True } bool;
 typedef enum { Active, Restricted,Closed } Status;
 typedef struct{
