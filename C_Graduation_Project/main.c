@@ -48,7 +48,6 @@ void main()
 					{
 						case 1 :
 							system("cls");
-							void createUser();
 					}		break;
 				}
 			}	
