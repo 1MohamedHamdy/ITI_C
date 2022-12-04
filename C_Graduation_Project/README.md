@@ -1,6 +1,6 @@
 # IMT Bank System
 
-Admin user : Mohamed
+Note # Admin user : Mohamed
 Admin Password : 1234
 ![900](https://user-images.githubusercontent.com/117542420/205450125-d592e0cf-adf9-4234-a894-4ebd0fbfc381.PNG)
 ![901](https://user-images.githubusercontent.com/117542420/205450129-fe1598b0-1e50-4038-bcdc-4dba571b7bec.PNG)
