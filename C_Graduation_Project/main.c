@@ -105,6 +105,9 @@ void main()
 					break;	
 				}system("cls");break;
 				
+			}else{
+				system("cls");
+				break;
 			}
 		case 2 : 
 			system("cls");
